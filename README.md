@@ -23,21 +23,21 @@ WhatsApp para a Estética Carolina Mariano, na Freguesia do Ó, São Paulo.
 ├── script.js
 └── assets/
     └── images/
-        ├── carolina-hero.svg    (placeholder — trocar por carolina-hero.jpg)
-        └── carolina-about.svg   (placeholder — trocar por carolina-about.jpg)
+        ├── carolina-hero.png    (foto da Hero)
+        ├── carolina-about.png   (foto da seção Sobre)
+        ├── carolina-hero.svg    (placeholder de fallback)
+        └── carolina-about.svg   (placeholder de fallback)
 ```
 
 ## 🖼️ Fotos da Carolina
 
-As imagens são carregadas de:
+As fotos reais da Carolina são carregadas de:
 
-- `assets/images/carolina-hero.jpg` — foto da Hero (vertical, ~640×800)
-- `assets/images/carolina-about.jpg` — foto da seção Sobre (vertical, ~560×700)
+- `assets/images/carolina-hero.png` — foto da Hero
+- `assets/images/carolina-about.png` — foto da seção Sobre
 
-Enquanto esses arquivos não existirem, a página exibe automaticamente um
-**placeholder elegante em SVG**. Basta adicionar os arquivos `.jpg` com esses
-nomes na pasta `assets/images/` para que as fotos reais apareçam — nenhuma
-alteração de código é necessária.
+Caso algum desses arquivos esteja ausente, a página exibe automaticamente um
+**placeholder elegante em SVG** (`carolina-hero.svg` / `carolina-about.svg`).
 
 ## 🚀 Como visualizar
 
