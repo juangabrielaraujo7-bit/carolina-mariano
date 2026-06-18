@@ -31,10 +31,11 @@ WhatsApp para a Estética Carolina Mariano, na Freguesia do Ó, São Paulo.
 
 ## 🖼️ Fotos da Carolina
 
-As fotos reais da Carolina são carregadas de:
+As fotos reais da Carolina foram otimizadas para web (WebP + JPEG de fallback,
+via `<picture>`), reduzindo de ~3,4MB para ~200KB no total:
 
-- `assets/images/carolina-hero.png` — foto da Hero
-- `assets/images/carolina-about.png` — foto da seção Sobre
+- `carolina-hero.webp` / `carolina-hero.jpg` — foto da Hero
+- `carolina-about.webp` / `carolina-about.jpg` — foto da seção Sobre
 
 Caso algum desses arquivos esteja ausente, a página exibe automaticamente um
 **placeholder elegante em SVG** (`carolina-hero.svg` / `carolina-about.svg`).

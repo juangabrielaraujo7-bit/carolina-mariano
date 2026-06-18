@@ -20,14 +20,14 @@
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:site_name" content="Estética Carolina Mariano" />
   <meta property="og:url" content="https://esteticacarolinamariano.com.br/" />
-  <meta property="og:image" content="assets/images/carolina-hero.png" />
+  <meta property="og:image" content="assets/images/carolina-hero.jpg" />
   <meta property="og:image:alt" content="Carolina Mariano, esteticista na Freguesia do Ó" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Estética Carolina Mariano | Freguesia do Ó" />
   <meta name="twitter:description" content="Limpeza de pele coreana, drenagem linfática e estética facial com atendimento humanizado na Freguesia do Ó." />
-  <meta name="twitter:image" content="assets/images/carolina-hero.png" />
+  <meta name="twitter:image" content="assets/images/carolina-hero.jpg" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -45,7 +45,7 @@
     "@context": "https://schema.org",
     "@type": "HealthAndBeautyBusiness",
     "name": "Estética Carolina Mariano",
-    "image": "https://esteticacarolinamariano.com.br/assets/images/carolina-hero.png",
+    "image": "https://esteticacarolinamariano.com.br/assets/images/carolina-hero.jpg",
     "url": "https://esteticacarolinamariano.com.br/",
     "telephone": "+5511995479683",
     "priceRange": "$$",
@@ -189,10 +189,13 @@
 
         <div class="hero-photo reveal">
           <div class="photo-frame">
-            <img src="assets/images/carolina-hero.png"
-                 alt="Carolina Mariano, esteticista especialista em cuidados faciais na Freguesia do Ó"
-                 width="640" height="800" loading="eager"
-                 onerror="this.onerror=null;this.src='assets/images/carolina-hero.svg';" />
+            <picture>
+              <source srcset="assets/images/carolina-hero.webp" type="image/webp" />
+              <img src="assets/images/carolina-hero.jpg"
+                   alt="Carolina Mariano, esteticista especialista em cuidados faciais na Freguesia do Ó"
+                   width="640" height="800" loading="eager" fetchpriority="high"
+                   onerror="this.onerror=null;this.src='assets/images/carolina-hero.svg';" />
+            </picture>
             <div class="floating-badge glass">
               <strong>+ Bem-estar</strong>
               <span>Resultados naturais</span>
@@ -350,10 +353,13 @@
       <div class="container about-grid">
         <div class="about-photo reveal">
           <div class="photo-frame photo-frame-soft">
-            <img src="assets/images/carolina-about.png"
-                 alt="Carolina Mariano em seu espaço de estética na Freguesia do Ó"
-                 width="560" height="700" loading="lazy"
-                 onerror="this.onerror=null;this.src='assets/images/carolina-about.svg';" />
+            <picture>
+              <source srcset="assets/images/carolina-about.webp" type="image/webp" />
+              <img src="assets/images/carolina-about.jpg"
+                   alt="Carolina Mariano em seu espaço de estética na Freguesia do Ó"
+                   width="560" height="700" loading="lazy"
+                   onerror="this.onerror=null;this.src='assets/images/carolina-about.svg';" />
+            </picture>
           </div>
           <span class="about-deco" aria-hidden="true"></span>
         </div>
